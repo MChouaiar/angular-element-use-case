@@ -1,0 +1,7 @@
+{
+  "name": "polymer-with-angular",
+  "short_name": "polymer-with-angular",
+  "description": "First example using angular element inside a polymer app",
+  "start_url": "/",
+  "display": "standalone"
+}

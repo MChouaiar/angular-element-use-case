@@ -1,0 +1,12 @@
+
+.react{
+  border-style: solid;
+  border-color: #50c5d7;
+  padding: 30px;
+}
+.angular{
+  border-style: solid;
+  border-color: #99050a;
+  padding: 30px;
+  margin-top: 10px;
+}

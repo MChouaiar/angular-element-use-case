@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="angular-element-example/styles.2be327b82e75343d6cbf.css"/>
+    <script type="text/javascript" src="./angular-element-example/runtime.06daa30a2963fa413676.js"></script>
+    <script type="text/javascript" src="./angular-element-example/polyfills.59df9a0c2df6300f8ede.js"></script>
+    <script type="text/javascript" src="./angular-element-example/scripts.e84e36a0841a046b4d25.js"></script>
+    <script type="text/javascript" src="./angular-element-example/main.814d319d71ebb63c5f26.js"></script>
+    <title>Javascript App</title>
+  </head>
+  <body>
+  <div style="text-align:center">
+    <img width="300" alt="Javascript Logo" src="./img/icon.javascript%202.png">
+  </div>
+
+    <app-root id="angularElement" number="2" message="Hello this is a message from html"></app-root>
+    <h2> The counter : <p id="counter"></p></h2>
+    <script>
+      let counter = 0;
+      const component = document.getElementById('angularElement');
+      component.addEventListener('countChange', (event)=>{
+          counter = event.detail;
+          document.getElementById("counter").innerText = counter;
+      })
+    </script>
+  </body>
+</html>
