@@ -33,7 +33,6 @@ class App extends Component {
     }
 
     decreaseCounter() {
-
         this.setState({count: this.state.count - 1});
     }
 

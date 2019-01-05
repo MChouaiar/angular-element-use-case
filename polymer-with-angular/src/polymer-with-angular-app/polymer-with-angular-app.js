@@ -32,7 +32,7 @@ class PolymerWithAngularApp extends PolymerElement {
             <img width="300" alt="Javascript Logo" src="img/polymer-2.svg">
         </div>
       <div class="angular">
-          <app-root message$="{{message::value-changed}}" number$="{{number::value-changed}}" on-count-change="handleCounterChange"></app-root>
+          <app-root message="{{message}}" number="{{number::count-change}}"></app-root>
       </div>
           
          <paper-input label="Polymer paper-input" value="{{message::keyup}}">

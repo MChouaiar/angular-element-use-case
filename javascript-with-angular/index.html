@@ -27,7 +27,12 @@
       component.addEventListener('countChange', (event)=>{
           counter = event.detail;
           document.getElementById("counter").innerText = counter;
-      })
+      });
+      setTimeout(() =>
+          component.setAttribute("message","Hello this is a message from Javascript"),
+          3000
+      );
+
     </script>
   </body>
 </html>
