@@ -9,7 +9,7 @@ import '@polymer/paper-button/paper-button';
 class PolymerWithAngularApp extends PolymerElement {
   static get template() {
     return html`
-    <link rel="stylesheet" href="angular-element-example/styles.2be327b82e75343d6cbf.css"/>
+    <link rel="stylesheet" href="angular-element-example/styles.79f87c4faa454ec36725.css"/>
     
      <style>
         :host {
